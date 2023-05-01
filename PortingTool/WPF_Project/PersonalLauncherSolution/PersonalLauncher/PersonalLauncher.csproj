@@ -1,0 +1,325 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PackageIcon>ic_launcher.png</PackageIcon>
+    <ApplicationIcon>res\img\logo\ic_launcher.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="res\img\Accept Database.png" />
+    <None Remove="res\img\Add Database.png" />
+    <None Remove="res\img\Add File.png" />
+    <None Remove="res\img\Add User.png" />
+    <None Remove="res\img\Administrator.png" />
+    <None Remove="res\img\Android OS.png" />
+    <None Remove="res\img\applications.png" />
+    <None Remove="res\img\ASP.png" />
+    <None Remove="res\img\Attach.png" />
+    <None Remove="res\img\Attention.png" />
+    <None Remove="res\img\Barcode.png" />
+    <None Remove="res\img\Binoculars.png" />
+    <None Remove="res\img\Broken Link.png" />
+    <None Remove="res\img\Bug.png" />
+    <None Remove="res\img\C Plus Plus.png" />
+    <None Remove="res\img\Cancel File.png" />
+    <None Remove="res\img\Cancel.png" />
+    <None Remove="res\img\Check File.png" />
+    <None Remove="res\img\Checked Checkbox 2.png" />
+    <None Remove="res\img\Checked.png" />
+    <None Remove="res\img\Checkmark.png" />
+    <None Remove="res\img\Code Fork.png" />
+    <None Remove="res\img\Collaboration.png" />
+    <None Remove="res\img\Console.png" />
+    <None Remove="res\img\consoles\microsoft.png" />
+    <None Remove="res\img\consoles\ps4.png" />
+    <None Remove="res\img\consoles\ps5.png" />
+    <None Remove="res\img\consoles\stadia.png" />
+    <None Remove="res\img\consoles\steam.png" />
+    <None Remove="res\img\consoles\switch.png" />
+    <None Remove="res\img\Copy.png" />
+    <None Remove="res\img\CS.png" />
+    <None Remove="res\img\CSS.png" />
+    <None Remove="res\img\Dashboard.png" />
+    <None Remove="res\img\Data Backup.png" />
+    <None Remove="res\img\Data Configuration.png" />
+    <None Remove="res\img\Data Encryption.png" />
+    <None Remove="res\img\Data Protection.png" />
+    <None Remove="res\img\Data Recovery.png" />
+    <None Remove="res\img\default.jpg" />
+    <None Remove="res\img\Delete Database.png" />
+    <None Remove="res\img\Delete File.png" />
+    <None Remove="res\img\Delete.png" />
+    <None Remove="res\img\Download 2.png" />
+    <None Remove="res\img\Download.png" />
+    <None Remove="res\img\Dribbble.png" />
+    <None Remove="res\img\Dropbox.png" />
+    <None Remove="res\img\Edit File.png" />
+    <None Remove="res\img\Error.png" />
+    <None Remove="res\img\Export.png" />
+    <None Remove="res\img\External Link Squared.png" />
+    <None Remove="res\img\External Link.png" />
+    <None Remove="res\img\Facebook.png" />
+    <None Remove="res\img\File.png" />
+    <None Remove="res\img\Folder.png" />
+    <None Remove="res\img\Foursquare.png" />
+    <None Remove="res\img\Help.png" />
+    <None Remove="res\img\Idea.png" />
+    <None Remove="res\img\Import.png" />
+    <None Remove="res\img\Instagram.png" />
+    <None Remove="res\img\JS.png" />
+    <None Remove="res\img\JSP.png" />
+    <None Remove="res\img\Keyboard.png" />
+    <None Remove="res\img\Like Filled.png" />
+    <None Remove="res\img\Like.png" />
+    <None Remove="res\img\Link.png" />
+    <None Remove="res\img\LinkedIn.png" />
+    <None Remove="res\img\Linux.png" />
+    <None Remove="res\img\List.png" />
+    <None Remove="res\img\Lock.png" />
+    <None Remove="res\img\logo\ic_launcher.ico" />
+    <None Remove="res\img\Mac OS.png" />
+    <None Remove="res\img\Mark As Favorite.png" />
+    <None Remove="res\img\Menu.png" />
+    <None Remove="res\img\Merge Files.png" />
+    <None Remove="res\img\Monitor.png" />
+    <None Remove="res\img\Multiple Devices.png" />
+    <None Remove="res\img\No Idea.png" />
+    <None Remove="res\img\Notebook.png" />
+    <None Remove="res\img\Ok.png" />
+    <None Remove="res\img\Page Overview .png" />
+    <None Remove="res\img\Page Overview 2.png" />
+    <None Remove="res\img\Page Overview 3.png" />
+    <None Remove="res\img\PetoonsStudio_logo_vertical.jpg" />
+    <None Remove="res\img\Pin 3.png" />
+    <None Remove="res\img\Refresh.png" />
+    <None Remove="res\img\Return.png" />
+    <None Remove="res\img\Save.png" />
+    <None Remove="res\img\Search.png" />
+    <None Remove="res\img\seriesXS.png" />
+    <None Remove="res\img\Settings.png" />
+    <None Remove="res\img\Share.png" />
+    <None Remove="res\img\Shutdown.png" />
+    <None Remove="res\img\softwares\opera.png" />
+    <None Remove="res\img\softwares\spotify.png" />
+    <None Remove="res\img\Source Code.png" />
+    <None Remove="res\img\Star Filled.png" />
+    <None Remove="res\img\Star.png" />
+    <None Remove="res\img\Synchronize.png" />
+    <None Remove="res\img\Todo List.png" />
+    <None Remove="res\img\Tumblr.png" />
+    <None Remove="res\img\Twitter.png" />
+    <None Remove="res\img\Undo.png" />
+    <None Remove="res\img\Unity.png" />
+    <None Remove="res\img\Unlock.png" />
+    <None Remove="res\img\Upload 2.png" />
+    <None Remove="res\img\Upload.png" />
+    <None Remove="res\img\View File.png" />
+    <None Remove="res\img\Windows8.png" />
+    <None Remove="res\img\Work.png" />
+    <None Remove="res\img\YouTube.png" />
+    <None Remove="res\img\Zoom In.png" />
+    <None Remove="res\img\Zoom Out.png" />
+    <None Remove="res\scripts\SteamBuilder.bat" />
+    <None Remove="res\scripts\test.bat" />
+    <None Remove="settings\config.json" />
+    <None Remove="settings\userConfiguration.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="res\img\applications.png" />
+    <Resource Include="res\img\ASP.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="res\img\logo\ic_launcher.ico" />
+    <Content Include="settings\config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\userConfiguration.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DynamicAero2" Version="1.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="res\img\Accept Database.png" />
+    <Resource Include="res\img\Add Database.png" />
+    <Resource Include="res\img\Add File.png" />
+    <Resource Include="res\img\Add User.png" />
+    <Resource Include="res\img\Administrator.png" />
+    <Resource Include="res\img\Android OS.png" />
+    <Resource Include="res\img\Attach.png" />
+    <Resource Include="res\img\Attention.png" />
+    <Resource Include="res\img\Barcode.png" />
+    <Resource Include="res\img\Binoculars.png" />
+    <Resource Include="res\img\Broken Link.png" />
+    <Resource Include="res\img\Bug.png" />
+    <Resource Include="res\img\C Plus Plus.png" />
+    <Resource Include="res\img\Cancel File.png" />
+    <Resource Include="res\img\Cancel.png" />
+    <Resource Include="res\img\Check File.png" />
+    <Resource Include="res\img\Checked Checkbox 2.png" />
+    <Resource Include="res\img\Checked.png" />
+    <Resource Include="res\img\Checkmark.png" />
+    <Resource Include="res\img\Code Fork.png" />
+    <Resource Include="res\img\Collaboration.png" />
+    <Resource Include="res\img\Console.png" />
+    <Resource Include="res\img\consoles\microsoft.png" />
+    <Resource Include="res\img\consoles\ps4.png" />
+    <Resource Include="res\img\consoles\ps5.png" />
+    <Resource Include="res\img\consoles\stadia.png" />
+    <Resource Include="res\img\consoles\steam.png" />
+    <Resource Include="res\img\consoles\switch.png" />
+    <Resource Include="res\img\Copy.png" />
+    <Resource Include="res\img\CS.png" />
+    <Resource Include="res\img\CSS.png" />
+    <Resource Include="res\img\Dashboard.png" />
+    <Resource Include="res\img\Data Backup.png" />
+    <Resource Include="res\img\Data Configuration.png" />
+    <Resource Include="res\img\Data Encryption.png" />
+    <Resource Include="res\img\Data Protection.png" />
+    <Resource Include="res\img\Data Recovery.png" />
+    <Resource Include="res\img\default.jpg" />
+    <Resource Include="res\img\Delete Database.png" />
+    <Resource Include="res\img\Delete File.png" />
+    <Resource Include="res\img\Delete.png" />
+    <Resource Include="res\img\Download 2.png" />
+    <Resource Include="res\img\Download.png" />
+    <Resource Include="res\img\Dribbble.png" />
+    <Resource Include="res\img\Dropbox.png" />
+    <Resource Include="res\img\Edit File.png" />
+    <Resource Include="res\img\Error.png" />
+    <Resource Include="res\img\Export.png" />
+    <Resource Include="res\img\External Link Squared.png" />
+    <Resource Include="res\img\External Link.png" />
+    <Resource Include="res\img\Facebook.png" />
+    <Resource Include="res\img\File.png" />
+    <Resource Include="res\img\Folder.png" />
+    <Resource Include="res\img\Foursquare.png" />
+    <Resource Include="res\img\Help.png" />
+    <Resource Include="res\img\Idea.png" />
+    <Resource Include="res\img\Import.png" />
+    <Resource Include="res\img\Instagram.png" />
+    <Resource Include="res\img\JS.png" />
+    <Resource Include="res\img\JSP.png" />
+    <Resource Include="res\img\Keyboard.png" />
+    <Resource Include="res\img\Like Filled.png" />
+    <Resource Include="res\img\Like.png" />
+    <Resource Include="res\img\Link.png" />
+    <Resource Include="res\img\LinkedIn.png" />
+    <Resource Include="res\img\Linux.png" />
+    <Resource Include="res\img\List.png" />
+    <Resource Include="res\img\Lock.png" />
+    <Resource Include="res\img\logo\ic_launcher.ico" />
+    <Resource Include="res\img\logo\ic_launcher.png" />
+    <Resource Include="res\img\Mac OS.png" />
+    <Resource Include="res\img\Mark As Favorite.png" />
+    <Resource Include="res\img\Menu.png" />
+    <Resource Include="res\img\Merge Files.png" />
+    <Resource Include="res\img\Monitor.png" />
+    <Resource Include="res\img\Multiple Devices.png" />
+    <Resource Include="res\img\No Idea.png" />
+    <Resource Include="res\img\Notebook.png" />
+    <Resource Include="res\img\Ok.png" />
+    <Resource Include="res\img\Page Overview .png" />
+    <Resource Include="res\img\Page Overview 2.png" />
+    <Resource Include="res\img\Page Overview 3.png" />
+    <Resource Include="res\img\Pin 3.png" />
+    <Resource Include="res\img\Refresh.png" />
+    <Resource Include="res\img\Return.png" />
+    <Resource Include="res\img\Save.png" />
+    <Resource Include="res\img\Search.png" />
+    <Resource Include="res\img\seriesXS.png" />
+    <Resource Include="res\img\Settings.png" />
+    <Resource Include="res\img\Share.png" />
+    <Resource Include="res\img\Shutdown.png" />
+    <EmbeddedResource Include="res\img\softwares\opera.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Resource Include="res\img\Source Code.png" />
+    <Resource Include="res\img\Star Filled.png" />
+    <Resource Include="res\img\Star.png" />
+    <Resource Include="res\img\Synchronize.png" />
+    <Resource Include="res\img\Todo List.png" />
+    <Resource Include="res\img\Tumblr.png" />
+    <Resource Include="res\img\Twitter.png" />
+    <Resource Include="res\img\Undo.png" />
+    <Resource Include="res\img\Unity.png" />
+    <Resource Include="res\img\Unlock.png" />
+    <Resource Include="res\img\Upload 2.png" />
+    <Resource Include="res\img\Upload.png" />
+    <Resource Include="res\img\View File.png" />
+    <Resource Include="res\img\Windows8.png" />
+    <Resource Include="res\img\Work.png" />
+    <Resource Include="res\img\YouTube.png" />
+    <Resource Include="res\img\Zoom In.png" />
+    <Resource Include="res\img\Zoom Out.png" />
+    <EmbeddedResource Include="res\scripts\SteamBuilder.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="settings\UserSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UserSettings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="res\img\logo\ic_launcher.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="settings\UserSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>UserSettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Themes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SplashScreen Include="res\img\PetoonsStudio_logo_vertical.jpg" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties settings_4config_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

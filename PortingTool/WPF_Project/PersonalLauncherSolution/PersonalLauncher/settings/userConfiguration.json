@@ -1,0 +1,67 @@
+{
+  "UserConfiguration": {
+    "unityEditors": [
+      {
+        "name": "2021.3.1f1",
+        "path": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.1f1\\Editor\\Unity.exe"
+      },
+      {
+        "name": "2021.3.6f1",
+        "path": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.6f1\\Editor\\Unity.exe"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Testing Project",
+        "path": "D:\\Development\\Unity\\TestingFeatures",
+        "unityVersion": "2021.3.1f1",
+        "image": "/res/img/softwares/opera.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "StackOverflow",
+        "link": "https://stackoverflow.com/questions/6305388/how-to-launch-a-google-chrome-tab-with-specific-url-using-c-sharp"
+      },
+      {
+        "name": "StackOverflow",
+        "link": "https://stackoverflow.com/questions/6305388/how-to-launch-a-google-chrome-tab-with-specific-url-using-c-sharp"
+      }
+    ],
+    "folders": [
+      {
+        "path": "D:\\",
+        "name": "Secondary Disk",
+        "image": ""
+      }
+    ],
+    "sdks": [
+      {
+        "id": "MySDK",
+        "name": "My SDK",
+        "path": "C:\\MYSDK\\"
+      }
+    ],
+    "software": [
+      {
+        "id": "Opera",
+        "name": "Opera",
+        "path": "D:\\Software\\Opera\\opera.exe",
+        "image": "/res/img/softwares/opera.png"
+      }
+    ],
+    "credentials": [
+      {
+        "id": "TestCredentials",
+        "user": "MyUser",
+        "password": "1234"
+      },
+      {
+        "id": "TestCredentials",
+        "email": "mmyMMail",
+        "user": "MyUser",
+        "password": "1234"
+      }
+    ]
+  }
+}

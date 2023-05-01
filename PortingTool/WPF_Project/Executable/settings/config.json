@@ -1,0 +1,138 @@
+{
+  "configuration": {
+    "UnityPlatforms": [
+      "StandaloneWindows64",
+      "PS4",
+      "PS5",
+      "GameCoreXboxOne",
+      "GameCoreXboxSeriesXS",
+      "Switch",
+      "Stadia"
+    ],
+    "Steam": {
+      "links": [
+        {
+          "name": "Steamworks",
+          "link": "www.google.com"
+        },
+        {
+          "name": "Docs",
+          "link": "www.google.com"
+        }
+      ]
+    },
+    "Switch": {
+      "programs": [
+        {
+          "softwareID": "Switch_TargetManager_2",
+          "name": "Target Manager 2",
+          "icon": ""
+        },
+        {
+          "softwareID": "C:AppPath",
+          "name": "Authoring Editor",
+          "icon": ""
+        },
+        {
+          "softwareID": "C:AppPath",
+          "name": "Authoring Tool",
+          "icon": ""
+        }
+      ],
+      "links": [
+        {
+          "name": "Documentation",
+          "link": "www.google.com"
+        }
+      ]
+    },
+    "Stadia": {
+      "links": [
+        {
+          "name": "Link name",
+          "link": "www.google.com"
+        }
+      ]
+    },
+    "Xbox": {
+      "programs": [
+        {
+          "softwareID": "C:AppPath",
+          "name": "Target Manager",
+          "icon": ""
+        },
+        {
+          "softwareID": "C:AppPath",
+          "name": "Console",
+          "icon": ""
+        },
+        {
+          "softwareID": "C:AppPath",
+          "name": "PIX",
+          "icon": ""
+        },
+        {
+          "softwareID": "C:AppPath",
+          "name": "GameConfig Editor",
+          "icon": ""
+        }
+      ],
+      "links": [
+        {
+          "name": "Link name",
+          "link": "www.google.com"
+        }
+      ]
+    },
+    "Ps4": {
+      "programs": [
+        {
+          "softwareID": "C:AppPath",
+          "name": "Target Manager",
+          "icon": ""
+        },
+        {
+          "softwareID": "C:AppPath",
+          "name": "Param's editor",
+          "icon": ""
+        },
+        {
+          "softwareID": "C:AppPath",
+          "name": "Throphy editor",
+          "icon": ""
+        }
+      ],
+      "links": [
+        {
+          "name": "Link name",
+          "link": "www.google.com"
+        }
+      ]
+    },
+    "Ps5": {
+      "programs": [
+        {
+          "softwareID": "C:AppPath",
+          "name": "Target Manager",
+          "icon": ""
+        },
+        {
+          "softwareID": "C:AppPath",
+          "name": "Param's editor",
+          "icon": ""
+        },
+        {
+          "softwareID": "C:AppPath",
+          "name": "Throphy editor",
+          "icon": ""
+        }
+      ],
+      "links": [
+        {
+          "name": "Link name",
+          "link": "www.google.com"
+        }
+      ]
+    }
+  }
+}
