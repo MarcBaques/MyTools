@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-direction: column; height: 100%;">
+        <uie:Toolbar style="right: 0;">
+            <ui:Button text="X" display-tooltip-when-elided="true" />
+            <ui:Button text="Settings" display-tooltip-when-elided="true" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" />
+            <ui:DropdownField label="Dropdown" index="-1" choices="a,b,s" />
+        </uie:Toolbar>
+        <TwoSplitView style="height: 100%;">
+            <ui:ListView focusable="true" />
+        </TwoSplitView>
+    </ui:VisualElement>
+</ui:UXML>

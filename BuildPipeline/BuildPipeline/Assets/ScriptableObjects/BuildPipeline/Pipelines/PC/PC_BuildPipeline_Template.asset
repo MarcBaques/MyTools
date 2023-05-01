@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd2e30e2454f8c64e91f1c7677c71364, type: 3}
+  m_Name: PC_BuildPipeline_Template
+  m_EditorClassIdentifier: 
+  Description: 
+  PrePipelineSteps:
+  - rid: 9098044651936940032
+  - rid: 9098044651936940034
+  - rid: 9098044651936940033
+  - rid: 9098044651936940035
+  - rid: 9098044651936940036
+  - rid: 9098044651936940037
+  - rid: 9098044651936940038
+  - rid: 9098044651936940039
+  PreBuildSteps: []
+  PostBuildSteps: []
+  Development: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 9098044651936940032
+      type: {class: AnalzeAdddressablesStep, ns: BlackRefactory.BuildPipeline.Steps, asm: Assembly-CSharp-Editor}
+      data:
+        AnalyzeNonFixable: 0
+        ClearAnalisis: 0
+        Fix: 0
+    - rid: 9098044651936940033
+      type: {class: BuildAddressablesStep, ns: BlackRefactory.BuildPipeline.Steps, asm: Assembly-CSharp-Editor}
+    - rid: 9098044651936940034
+      type: {class: CleanAddressablesStep, ns: BlackRefactory.BuildPipeline.Steps, asm: Assembly-CSharp-Editor}
+    - rid: 9098044651936940035
+      type: {class: GenerateAddressablesReportStep, ns: BlackRefactory.BuildPipeline.Steps, asm: Assembly-CSharp-Editor}
+      data:
+        GenerateBuildLayout: 1
+        ExportLayoutToBuildFolder: 1
+        ResetValueOnFinish: 1
+    - rid: 9098044651936940036
+      type: {class: DirectivesStep, ns: BlackRefactory.BuildPipeline.Steps, asm: Assembly-CSharp-Editor}
+      data:
+        Directives: []
+        ResetDirectivesOnFinish: 1
+    - rid: 9098044651936940037
+      type: {class: GroupBuildStep, ns: BlackRefactory.BuildPipeline.Steps, asm: Assembly-CSharp-Editor}
+    - rid: 9098044651936940038
+      type: {class: ProcessStep, ns: BlackRefactory.BuildPipeline.Steps, asm: Assembly-CSharp-Editor}
+      data:
+        CreateNoWindow: 0
+        UseShellExecute: 0
+        WaitForExit: 0
+        Filename: 
+        Args: 
+    - rid: 9098044651936940039
+      type: {class: IncludeScenesStep, ns: BlackRefactory.BuildPipeline.Steps, asm: Assembly-CSharp-Editor}
+      data:
+        ExcludeScenes: []
